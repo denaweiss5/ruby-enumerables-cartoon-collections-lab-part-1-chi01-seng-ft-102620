@@ -5,7 +5,9 @@ end
 end
 
 def list_dwarves(array)
+  sum=0
 array.each_with_index do |characters, index|
-  puts "#{index}. #{characters}"
+  puts "#{sum}+1. #{characters}"
 end
+sum += 1
 end
