@@ -1,5 +1,5 @@
 def greet_characters(array)
-  dwarves_array.each do |characters|
+  array.each do |characters|
     puts "Hello #{characters}!"
 end
 end
