@@ -9,3 +9,4 @@ array.each_with_index do |characters,index|
   array[characters]= index
   puts "#{index} #{characters}"
 end
+end
